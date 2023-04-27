@@ -1,0 +1,543 @@
+.div {
+  position: relative;
+}
+.wrapper {
+  border-radius: var(--br-32xl);
+  background-color: var(--color-plum);
+  width: 39px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  position: relative;
+  color: var(--color-black);
+}
+.frameContainer,
+.frameDiv,
+.frameGroup,
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameContainer,
+.frameDiv,
+.frameGroup {
+  left: 127px;
+}
+.frameContainer,
+.frameDiv {
+  left: 352px;
+}
+.frameDiv {
+  left: 525px;
+}
+.updateChild,
+.updateInner,
+.updateItem {
+  position: absolute;
+  top: 19px;
+  left: 43px;
+  border-top: 2px solid var(--color-plum);
+  box-sizing: border-box;
+  width: 133px;
+  height: 2px;
+}
+.updateInner,
+.updateItem {
+  left: 219px;
+}
+.updateInner {
+  left: 395px;
+}
+.update {
+  position: absolute;
+  top: 182px;
+  left: 433px;
+  width: 573px;
+  height: 63px;
+}
+.bookingSummary {
+  position: absolute;
+  top: 30px;
+  left: 26px;
+  text-align: left;
+}
+.icon {
+  position: relative;
+  width: 37px;
+  height: 26.5px;
+  flex-shrink: 0;
+}
+.delhi {
+  margin: 0;
+}
+.delhi110003IndiaContainer {
+  position: relative;
+  display: inline-block;
+  width: 126px;
+  height: 51px;
+  flex-shrink: 0;
+}
+.iconParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.shanghai200080ChinaContainer {
+  position: relative;
+  display: inline-block;
+  width: 149px;
+  height: 51px;
+  flex-shrink: 0;
+}
+.frameParent3 {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-543xl);
+}
+.frameChild,
+.planeIcon {
+  position: relative;
+  width: 31.54px;
+  height: 26.87px;
+  flex-shrink: 0;
+}
+.frameChild {
+  border-top: 1.5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 634.5px;
+  height: 1.5px;
+}
+.planeIconParent {
+  top: 0;
+  left: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.express,
+.plane,
+.planeIconParent {
+  position: absolute;
+}
+.plane {
+  top: 109px;
+  left: 35px;
+  width: 837px;
+  height: 117.5px;
+}
+.express {
+  top: 86px;
+  left: 425px;
+  line-height: 120%;
+  font-weight: 600;
+}
+.bookingSummaryParent {
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  width: 907px;
+  height: 256.5px;
+  flex-shrink: 0;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+}
+.iconsaxlinearweightmeter {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.totalWeightvolumeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.kg {
+  position: relative;
+  line-height: 120%;
+  color: var(--color-black);
+}
+.frameParent5 {
+  position: absolute;
+  top: 18px;
+  left: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameWrapper {
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  width: 232px;
+  height: 165px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.load {
+  position: absolute;
+  top: 18px;
+  left: 26px;
+  line-height: 120%;
+  font-weight: 600;
+  color: var(--color-dimgray-100);
+}
+.frameItem {
+  position: relative;
+  width: 49px;
+  height: 47px;
+  flex-shrink: 0;
+}
+.pallets {
+  position: relative;
+  line-height: 120%;
+}
+.frameParent6,
+.vectorParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent6 {
+  position: absolute;
+  top: 51px;
+  left: 248px;
+  gap: var(--gap-7xs);
+  font-size: var(--title03-semi-bold-size);
+}
+.x {
+  position: absolute;
+  top: 72px;
+  left: 209px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.39em;
+  line-height: 120%;
+}
+.loadParent {
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  width: 664px;
+  height: 165px;
+  flex-shrink: 0;
+  overflow: hidden;
+  color: var(--color-black);
+}
+.frameParent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.primetimeWorldwide {
+  font-weight: 600;
+}
+.sellerPrimetimeWorldwideContainer {
+  position: absolute;
+  top: 28px;
+  left: 26px;
+  line-height: 120%;
+}
+.frameInner {
+  position: absolute;
+  top: 89px;
+  left: 151px;
+  width: 141px;
+  height: 45px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.sellerPrimetimeWorldwideParent {
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  width: 443px;
+  height: 187px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.xcoverIcon {
+  position: absolute;
+  top: 94px;
+  left: 112px;
+  width: 219px;
+  height: 34px;
+  overflow: hidden;
+}
+.frameParent2,
+.frameParent7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.frameParent2 {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.iconsaxlinearstar1 {
+  position: relative;
+  width: 11.74px;
+  height: 11.74px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.iconsaxlinearstar1Parent,
+.priceDetailsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconsaxlinearstar1Parent {
+  border-radius: var(--br-4xl);
+  background-color: var(--color-gainsboro-100);
+  height: 20px;
+  padding: 9.028911590576172px;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 9.03px;
+}
+.priceDetailsParent {
+  position: absolute;
+  top: 40px;
+  left: 34px;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  color: var(--color-black);
+}
+.dutoes,
+.insuranceParent,
+.seller {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.seller {
+  position: absolute;
+  top: 105px;
+  left: 34px;
+  gap: var(--gap-88xl);
+}
+.dutoes,
+.insuranceParent {
+  gap: var(--gap-44xl);
+}
+.insuranceParent {
+  gap: var(--gap-128xl);
+}
+.dutiesAdnInsurance,
+.insurance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.dutiesAdnInsurance {
+  position: absolute;
+  top: 170px;
+  left: 38px;
+  align-items: center;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-smi);
+}
+.promoCode {
+  text-decoration: underline;
+  color: var(--color-mediumslateblue);
+}
+.platform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-113xl);
+}
+.addAPromoCodeParent {
+  position: absolute;
+  top: 293px;
+  left: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--title03-semi-bold-size);
+}
+.priceDetailsChild,
+.priceDetailsInner,
+.priceDetailsItem {
+  position: absolute;
+  top: 143.5px;
+  left: 38.5px;
+  border-top: 1px solid var(--color-darkgray-500);
+  box-sizing: border-box;
+  width: 273px;
+  height: 1px;
+}
+.priceDetailsInner,
+.priceDetailsItem {
+  top: 266.5px;
+}
+.priceDetailsInner {
+  top: 369.5px;
+}
+.checkoutWrapper,
+.total {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.total {
+  top: 396px;
+  left: 34px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+}
+.checkoutWrapper {
+  top: 496px;
+  left: 39px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-blueviolet);
+  width: 276px;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+}
+.priceDetails {
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 0 306px 86px transparent, 0 196px 78px rgba(21, 31, 72, 0.01),
+    0 110px 66px rgba(21, 31, 72, 0.05), 0 49px 49px rgba(21, 31, 72, 0.09),
+    0 12px 27px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+  width: 366px;
+  height: 576px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: 9.93px;
+  color: var(--color-gray-200);
+}
+.frameParent1 {
+  position: absolute;
+  top: 305px;
+  left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-74xl);
+  text-align: center;
+  color: var(--color-dimgray-100);
+}
+.mate {
+  color: var(--color-mediumslateblue);
+}
+.iconsaxlineardollarsquare {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.trackShipment {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.login {
+  border-radius: var(--br-smi);
+  background-color: var(--color-mediumslateblue);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: 12.44444465637207px 19.55555534362793px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.iconsaxlineardollarsquareParent,
+.loginWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginWrapper {
+  display: flex;
+}
+.iconsaxlineardollarsquareParent {
+  display: none;
+  gap: var(--gap-9xl);
+  font-size: 16.89px;
+  color: var(--color-white);
+  font-family: var(--title03-semi-bold);
+}
+.logoParent {
+  position: absolute;
+  top: 0;
+  left: 35px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-18xl) 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-922xl);
+  font-size: var(--font-size-23xl);
+  color: var(--color-black);
+  font-family: var(--font-pp-cirka);
+}
+.chatButtonIcon {
+  position: absolute;
+  top: 842px;
+  left: 1301px;
+  width: 130px;
+  height: 154px;
+}
+.booking {
+  position: relative;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 1024px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-white);
+  font-family: var(--title03-semi-bold);
+}

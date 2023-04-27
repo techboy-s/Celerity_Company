@@ -1,0 +1,122 @@
+.iconsaxlinearlocation {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.originPortCity {
+  position: absolute;
+  top: 16.5px;
+  left: 47px;
+  line-height: 120%;
+  font-weight: 600;
+}
+.destinationClickState,
+.orginClickState {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  width: 327px;
+  height: 52px;
+  overflow: hidden;
+}
+.destinationClickState {
+  left: 332px;
+}
+.groupChild {
+  position: absolute;
+  top: 11.9px;
+  left: 663.4px;
+  border-right: 1.2px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 1.2px;
+  height: 28.2px;
+}
+.iconsaxlinearcalendar {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.april2023 {
+  position: absolute;
+  top: 16.5px;
+  left: 46px;
+  line-height: 120%;
+  font-weight: 600;
+}
+.dateClickState {
+  position: absolute;
+  top: 0;
+  left: 669px;
+  border-radius: var(--br-sm);
+  width: 308px;
+  height: 52px;
+  overflow: hidden;
+}
+.groupItem {
+  position: absolute;
+  top: 11.9px;
+  left: 981.4px;
+  border-right: 1.2px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 1.2px;
+  height: 28.2px;
+}
+.load {
+  position: absolute;
+  top: 0;
+  left: 987px;
+  border-radius: var(--br-sm);
+  width: 211px;
+  height: 52px;
+  overflow: hidden;
+}
+.groupInner {
+  position: absolute;
+  top: 11.9px;
+  left: 1215.4px;
+  border-right: 1.2px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 1.2px;
+  height: 28.2px;
+}
+.iconsaxlineararrowright {
+  position: absolute;
+  top: 8px;
+  left: 1228px;
+  border-radius: var(--br-5xs);
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+}
+.orginClickStateParent,
+.searchBar {
+  position: absolute;
+  top: 15px;
+  left: 7px;
+  width: 1264px;
+  height: 52px;
+}
+.searchBar {
+  top: 404px;
+  left: 76px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: 463px 838px 268px transparent,
+    296px 536px 245px rgba(21, 31, 72, 0.01),
+    167px 302px 207px rgba(21, 31, 72, 0.05),
+    74px 134px 153px rgba(21, 31, 72, 0.09),
+    19px 34px 84px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+  width: 1287px;
+  height: 82px;
+  text-align: left;
+  font-size: var(--title03-semi-bold-size);
+  color: var(--color-gray-100);
+  font-family: var(--title03-semi-bold);
+}

@@ -1,0 +1,81 @@
+.iconsaxlinearlocation {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.originPortCity {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+.origin {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-smi);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.date,
+.frameChild,
+.origin {
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+.frameChild {
+  position: relative;
+  border-right: 1.2px solid var(--color-silver);
+  width: 1.2px;
+  height: 28.2px;
+}
+.date {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  width: 308px;
+  padding: var(--padding-sm) var(--padding-smi);
+  gap: var(--gap-4xs);
+}
+.date,
+.load,
+.originParent,
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.load {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-white);
+  width: 211px;
+  flex-shrink: 0;
+  padding: var(--padding-sm) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-4xs);
+}
+.originParent,
+.searchBar {
+  gap: var(--gap-8xs);
+}
+.searchBar {
+  position: absolute;
+  top: 295px;
+  left: 76px;
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  box-shadow: 0 874px 245px transparent, 0 559px 224px rgba(21, 31, 72, 0.01),
+    0 315px 189px rgba(21, 31, 72, 0.05), 0 140px 140px rgba(21, 31, 72, 0.09),
+    0 35px 77px rgba(21, 31, 72, 0.1), 0 0 0 rgba(21, 31, 72, 0.1);
+  padding: var(--padding-3xs) var(--padding-lg) var(--padding-3xs)
+    var(--padding-7xs);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--title03-semi-bold-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--title03-semi-bold);
+}
